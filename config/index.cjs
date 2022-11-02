@@ -48,17 +48,17 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
- // CALLBACK_TEMPLATE_ID: 'H-hPX-5FEfI7SJuqXdTCsCgC7YAmfa8OOnXmAM6AzJQ',
+  CALLBACK_TEMPLATE_ID: 'H-hPX-5FEfI7SJuqXdTCsCgC7YAmfa8OOnXmAM6AzJQ',
 
- // CALLBACK_USERS: [
- //   {
-   //   name: '自己',
+  CALLBACK_USERS: [
+    {
+      name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-   //   id: 'gh_0832e666fd42',
-  //  }
-//  ],
+      id: 'gh_0832e666fd42',
+    }
+  ],
 
-//}
+}
 
 module.exports = USER_CONFIG
 
